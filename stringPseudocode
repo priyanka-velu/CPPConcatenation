@@ -1,0 +1,20 @@
+START
+
+    DEFINE input1 as String
+    DEFINE input2 as String
+
+    REPEAT 3 times:
+        Prompt user to enter string 1
+        READ input1 from user
+
+        Prompt user to enter string 2
+        READ input2 from user
+
+        Concatenate input1 and input2, store the result in concatenated
+
+        OUTPUT "Concatenated string: " + concatenated
+
+    End Repeat
+
+STOP
+
